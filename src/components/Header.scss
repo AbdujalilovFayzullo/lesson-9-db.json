@@ -1,0 +1,22 @@
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    background-color: #109BE9;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    &__list{
+        display: flex;
+        gap: 30px;
+        margin-left: 104px;
+        margin-top: 27px;
+    }
+    &__link{
+        font-weight: 700;
+        font-size: larger;
+        color: white;
+    }
+}
